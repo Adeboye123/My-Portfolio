@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abimbola Adeboye | Software Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@700;800;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <body>
+        <!-- Scroll Progress Indicator -->
+        <div class="scroll-progress"></div>
+
+        <!-- Header -->
+        <header class="header">
+            <div class="container">
+                <nav class="nav">
+                    <a href="#" class="logo">DB<span>B££</span></a>
+
+                    <ul class="nav-list">
+                        <li><a href="#home" class="nav-link active"><span>Home</span></a></li>
+                        <li><a href="#about" class="nav-link"><span>About</span></a></li>
+                        <li><a href="#projects" class="nav-link"><span>Projects</span></a></li>
+                        <li><a href="#testimonials" class="nav-link"><span>Testimonials</span></a></li>
+                        <li><a href="#contact" class="nav-link"><span>Contact</span></a></li>
+                        <li>
+                            <div class="theme-toggle"></div>
+                        </li>
+                    </ul>
+
+                    <div class="hamburger">
+                        <i class="fas fa-bars"></i>
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+        <!-- Hero Section with Animated Text -->
+        <section id="home" class="section hero">
+            <canvas id="particle-canvas"></canvas>
+            <div class="parallax-bg"></div>
+            <div class="animated-gradient"></div>
+            <div class="floating-elements">
+                <div class="floating-element" style="width: 100px; height: 100px; top: 10%; left: 10%; animation-delay: 0s;"></div>
+                <div class="floating-element" style="width: 150px; height: 150px; top: 60%; left: 80%; animation-delay: 2s;"></div>
+                <div class="floating-element" style="width: 80px; height: 80px; top: 80%; left: 20%; animation-delay: 4s;"></div>
+                <div class="floating-element" style="width: 120px; height: 120px; top: 30%; left: 70%; animation-delay: 6s;"></div>
+            </div>
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <h1 class="hero-title fade-in">Hi, I'm <span class="highlight-text">Abimbola Adeboye</span></h1>
+                        <h2 class="hero-subtitle typewriter">Software Developer</h2>
+                        <p class="hero-description fade-in">I enjoy turning ideas into interactive digital experiences — from sleek front-end designs to efficient back-end logic.</p>
+                        <div class="hero-btns">
+                            <a href="#projects" class="btn magnetic-btn bounce">View Work</a>
+                            <a href="#contact" class="btn btn-outline magnetic-btn bounce">Contact Me</a>
+                        </div>
+                    </div>
+
+                    <!-- Animated Tech Stack -->
+                    <div class="tech-stack">
+                        <div class="tech-item">
+                            <i class="fab fa-html5 tech-icon"></i>
+                            <span>HTML</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="fa-brands fa-css3-alt tech-icon"></i>
+                            <span>CSS</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="fab fa-react tech-icon"></i>
+                            <span>React</span>
+                        </div>
+                        <!-- <div class="tech-item">
+                            <i class="fas fa-robot tech-icon"></i>
+                            <span>AI Development(data science)</span>
+                        </div> -->
+                        <div class="tech-item">
+                            <i class="fab fa-node-js tech-icon"></i>
+                            <span>Node.js</span>
+                        </div>
+                        <!-- <div class="tech-item">
+                            <i class="fas fa-cloud tech-icon"></i>
+                            <span>desktop applications</span>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section about">
+            <div class="container">
+                <h2 class="section-title flip-in">About Me</h2>
+
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>I’m a passionate Full Stack Developer skilled in HTML, CSS, JavaScript, and Node.js, focused on building clean, responsive, and user-friendly web applications. I enjoy turning creative ideas into interactive digital solutions that
+                            blend modern design with efficient functionality, ensuring a seamless experience across all devices.</p>
+
+                        <p>I specialize in developing both front-end and back-end systems that are fast, scalable, and easy to maintain. I’m constantly improving my craft, learning new technologies, and exploring better ways to solve problems through code.
+                            My goal is to create impactful web experiences that not only look great but also deliver real value to users.</p>
+
+                        <div class="skills">
+                            <div class="skill">
+                                <div class="skill-name">
+                                    <span>HTML</span>
+                                    <span>90%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="90%"></div>
+                                </div>
+                            </div>
+
+                            <div class="skill">
+                                <div class="skill-name">
+                                    <span>CSS</span>
+                                    <span>80%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="80%"></div>
+                                </div>
+                            </div>
+
+                            <div class="skill">
+                                <div class="skill-name">
+                                    <span>Node.js</span>
+                                    <span>70%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="70%"></div>
+                                </div>
+                            </div>
+
+                            <div class="skill">
+                                <div class="skill-name">
+                                    <span>React</span>
+                                    <span>10%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="10%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="about-image">
+                        <img src="./images/Adeboye1.png" alt="Abimbola Adeboye - About Me" class="float">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section with Filtering -->
+        <section id="projects" class="section projects">
+            <div class="container">
+                <h2 class="section-title zoom-in">My Projects</h2>
+
+                <div class="projects-filter">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <!-- <button class="filter-btn" data-filter="ai">AI/ML</button> -->
+                    <button class="filter-btn" data-filter="web">Web Development</button>
+                    <!-- <button class="filter-btn" data-filter="mobile">Mobile Apps</button> -->
+                </div>
+
+                <div class="projects-grid">
+                    <div class="project-card" data-category="web">
+                        <div class="project-image">
+                            <img src="./images/rise img.png" alt="Rise.com Replica img">
+                            <div class="project-overlay">
+                                <a href="https://github.com/Adeboye123" class="btn magnetic-btn">View Project</a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3 class="project-title">Rise.com Replica</h3>
+                            <p>Precise front-end replica of Rise.com, focused on responsive layout and design accuracy.</p>
+                            <div class="project-tags">
+                                <span class="project-tag">HTML</span>
+                                <span class="project-tag">CSS</span>
+                                <span class="project-tag">JavaScript</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card" data-category="web">
+                        <div class="project-image">
+                            <img src="./images/School Management.png" alt="School Management landing page">
+                            <div class="project-overlay">
+                                <a href="https://github.com/Adeboye123" class="btn magnetic-btn">View Project</a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3 class="project-title">School Management Landing Page</h3>
+                            <p>Clean and modern school landing page showcasing features and systems using ...</p>
+                            <div class="project-tags">
+                                <span class="project-tag">HTML</span>
+                                <span class="project-tag">CSS</span>
+                                <span class="project-tag">JavaScript</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card" data-category="web">
+                        <div class="project-image">
+                            <img src="./images/Weather App.png" alt="Weather Forecast App">
+                            <div class="project-overlay">
+                                <a href="https://github.com/Adeboye123" class="btn magnetic-btn">View Project</a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3 class="project-title">Weather Forecast App</h3>
+                            <p>Real-time weather app built with HTML, CSS, and JavaScript, showing live temperature and forecast by location.</p>
+                            <div class="project-tags">
+                                <span class="project-tag">HTML</span>
+                                <span class="project-tag">CSS</span>
+                                <span class="project-tag">JavaScript</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card" data-category="web">
+                        <div class="project-image">
+                            <img src="./images/Calculator.png" alt="Calculator">
+                            <div class="project-overlay">
+                                <a href="https://github.com/Adeboye123" class="btn magnetic-btn">View Project</a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3 class="project-title">Smart Calculator</h3>
+                            <p>Simple and responsive calculator for quick arithmetic operations using...</p>
+                            <div class="project-tags">
+                                <span class="project-tag">HTML</span>
+                                <span class="project-tag">CSS</span>
+                                <span class="project-tag">JavaScript</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card" data-category="web">
+                        <div class="project-image">
+                            <img src="./images/Metalverse Web.png" alt="Metalverse – E-Commerce Website">
+                            <div class="project-overlay">
+                                <a href="https://github.com/Adeboye123" class="btn magnetic-btn">View Project</a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3 class="project-title">Metalverse – E-Commerce Website</h3>
+                            <p>Responsive e-commerce site with product listings, cart, and checkout built using Node.js and JavaScript.</p>
+                            <div class="project-tags">
+                                <span class="project-tag">HTML</span>
+                                <span class="project-tag">CSS</span>
+                                <span class="project-tag">JavaScript</span>
+                                <span class="project-tag">Nodejs</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card" data-category="web">
+                        <div class="project-image">
+                            <img src="./images/Dr.Doom.jpg" alt="Dr.doom img">
+                            <div class="project-overlay">
+                                <a href="https://github.com/Adeboye123" class="btn magnetic-btn">View Project</a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3 class="project-title">Dr. Doom Landing Page</h3>
+                            <p>A stylish, animated superhero landing page created with HTML, CSS, and JavaScript.</p>
+                            <div class="project-tags">
+                                <span class="project-tag">HTML</span>
+                                <span class="project-tag">CSS</span>
+                                <span class="project-tag">JavaScript</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section id="testimonials" class="section testimonials">
+            <div class="container">
+                <h2 class="section-title flip-in">Testimonials</h2>
+
+                <div class="testimonials-container">
+                    <div class="testimonial-slider">
+                        <div class="testimonial-track">
+                            <div class="testimonial-slide">
+                                <p class="testimonial-text">“During his one-year internship at Ihifix Hub, Adeboye consistently impressed with his ability to design responsive web applications and tackle challenging coding problems. He demonstrates creativity, attention to detail,
+                                    and a strong commitment to learning.”</p>
+                                <p class="testimonial-author">– Ihifix Hub Supervisor</p>
+                            </div>
+                            <div class="testimonial-slide">
+                                <p class="testimonial-text">“Adeboye is an incredibly talented developer who consistently delivers clean and efficient code. His projects are always well-thought-out and professional.”</p>
+                                <p class="testimonial-author">- Silva, Colleague</p>
+                            </div>
+                            <div class="testimonial-slide">
+                                <p class="testimonial-text">“Adeboye has a remarkable talent for building clean, responsive, and user-friendly web applications. His dedication and problem-solving skills make him a standout developer.”</p>
+                                <p class="testimonial-author">– Internship Mentor, Ihifix Hub</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-nav">
+                        <div class="testimonial-dot active" data-slide="0"></div>
+                        <div class="testimonial-dot" data-slide="1"></div>
+                        <div class="testimonial-dot" data-slide="2"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section contact">
+            <div class="container">
+                <h2 class="section-title zoom-in">Get In Touch</h2>
+
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div>
+                                <h3>Email</h3>
+                                <p>adeboyeabimbola2001@gmail.com</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div>
+                                <h3>Phone</h3>
+                                <p>+234 (703) 347-8108</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div>
+                                <h3>Location</h3>
+                                <p>Kaduna, Nigeria</p>
+                            </div>
+                        </div>
+
+                        <div class="social-links">
+                            <a href="https://www.linkedin.com/in/adeboye-abimbola-5b7372325/" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="https://github.com/Adeboye123" class="social-link"><i class="fab fa-github"></i></a>
+                            <a href="https://x.com/DecalyBee" class="social-link"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+
+                    <form class="contact-form" id="contact-form">
+                        <div class="form-group">
+                            <input type="text" class="form-input" id="name" placeholder=" " required>
+                            <label for="name" class="form-label">Your Name</label>
+                            <div class="error-message" id="name-error">Please enter your name</div>
+                        </div>
+
+                        <div class="form-group">
+                            <input type="email" class="form-input" id="email" placeholder=" " required>
+                            <label for="email" class="form-label">Your Email</label>
+                            <div class="error-message" id="email-error">Please enter a valid email</div>
+                        </div>
+
+                        <div class="form-group">
+                            <input type="text" class="form-input" id="subject" placeholder=" " required>
+                            <label for="subject" class="form-label">Subject</label>
+                            <div class="error-message" id="subject-error">Please enter a subject</div>
+                        </div>
+
+                        <div class="form-group">
+                            <textarea class="form-input" id="message" placeholder=" " required></textarea>
+                            <label for="message" class="form-label">Your Message</label>
+                            <div class="error-message" id="message-error">Please enter your message</div>
+                        </div>
+
+                        <button type="submit" class="btn magnetic-btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-content">
+                    <a href="#" class="logo">DB<span>B££</span></a>
+
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/adeboye-abimbola-5b7372325/" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://github.com/Adeboye123" class="social-link"><i class="fab fa-github"></i></a>
+                        <a href="https://x.com/DecalyBee" class="social-link"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+
+                <div class="copyright">
+                    <p>&copy; 2025 Abimbola Adeboye. All rights reserved.</p>
+                </div>
+            </div>
+        </footer>
+
+        <div class="back-to-top">
+            <i class="fas fa-chevron-up"></i>
+        </div>
+        <script src="./script.js"></script>
+    </body>
+
+</html>
